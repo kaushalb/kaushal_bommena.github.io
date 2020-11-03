@@ -1,5 +1,5 @@
 h1 {
-  color: #3399ff;
+  color: #ffff;
 }
 
 * {
@@ -9,7 +9,7 @@ h1 {
 }
 
 .navbar {
-  background: #121212;
+  background: #1f1f2e;
   height: 80px;
   display: flex;
   align-items: center;
@@ -118,7 +118,7 @@ h1 {
     transition: all 0.5s ease;
     height: 50vh;
     z-index: -1;
-    background: #121212;
+    background: #29293d;
   }
 
   .navbar__menu.active {
@@ -190,4 +190,21 @@ h1 {
 
 .fa-gem {
   margin-right: 0.5rem;
+}
+
+.main {
+  background-image: linear-gradient(to top, #9494b8 0%, #29293d 100%);
+}
+
+.main__container {
+  display: grid;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+  justify-self: center;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main__img {
+  border-radius: 50%;
 }
