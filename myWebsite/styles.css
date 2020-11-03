@@ -205,6 +205,6 @@ h1 {
   grid-template-columns: 1fr 1fr;
 }
 
-.main__img {
-  border-radius: 50%;
+img {
+  border-radius: 40%;
 }
