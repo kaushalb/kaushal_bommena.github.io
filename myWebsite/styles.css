@@ -202,7 +202,12 @@ h1 {
   padding: 0;
   margin: 0 auto;
   justify-self: center;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
+}
+
+.main__content {
+  margin: 0 auto;
+  padding: 0 60px;
 }
 
 img {
